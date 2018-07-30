@@ -13,7 +13,7 @@ Improve accuracy of readings
 * points (a module written for creating an OBJ file from given vertices, available on this github page)
 
 # Hardware
-1 Lego Mindstorms EV3 IR sensor, 1 EV3 Medium Servo Motor, 2 EV3 Large Servo Motors.
+1 Lego Mindstorms EV3 IR sensor, 1 EV3 Medium Servo Motor, 2 EV3 Large Servo Motors. To look at how it was built, look at the image ROBOTPIC.jpg.
 
 # Usage
 Pair the EV3 and your computer
