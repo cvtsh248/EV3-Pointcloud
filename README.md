@@ -2,7 +2,7 @@
 A Work in progress 3D scanner made with the Lego Mindstorms EV3 home kit (31313) written in Python 2.7, and Lego's version of LabVIEW. The IR sensor is placed 18 cm above the pivot point (Z axis).
 
 # Todo
-Hah
+Improve accuracy of readings
 
 # Python Dependencies
 * pyserial
