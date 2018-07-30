@@ -7,8 +7,8 @@ import math
 from pyquaternion import Quaternion
 
 
-EV3 = serial.Serial('/dev/tty.SHOURJOSEV3-SerialPort')
-print ("Listening for EV3 Bluetooth messages, press CTRL C to quit.")
+EV3 = serial.Serial('/dev/tty.SHOURJOSEV3-SerialPort') #replace accordingly (look at readme for more info)
+print ("Waiting for EV3 Bluetooth messages, CTRL C to quit.")
 vertices = []
 outs = []
 sortedouts = []
@@ -21,11 +21,9 @@ def listen():
 		s = EV3.read(n)
 		for n in s:
 			string.append("%02X" % ord(n))
-		#print
 		return string
 	else:
 		return None
-		# No data is ready to be processed
 		time.sleep(0.5)
 
 def decode():
