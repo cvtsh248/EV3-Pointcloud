@@ -1,7 +1,6 @@
-# Blender v2.79 (sub 0) OBJ File: 'L3GOLIDAR.blend'
-# www.blender.org
-mtllib successtest.mtl
-o out.021
+# OBJ file
+o Point_Cloud.001
+
 v -3.820652 -0.078441 -0.000001
 v -3.820652 -0.078441 -0.000001
 v -3.750456 -0.078441 -0.729016
