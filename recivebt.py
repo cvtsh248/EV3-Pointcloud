@@ -6,7 +6,7 @@ import struct
 import math
 from pyquaternion import Quaternion
 
-EV3 = serial.Serial('/dev/rfcomm0') #replace accordingly (look at readme for more info) e.g. EV3 = serial.Serial('/dev/tty.SHOURJOSEV3-SerialPort') 
+EV3 = serial.Serial('/dev/rfcomm0') #replace accordingly (look at readme for more info) e.g. EV3 = serial.Serial('/dev/tty.EV3-SerialPort') 
 print ("Waiting for EV3 Bluetooth messages, CTRL C to quit.")
 vertices = []
 outs = []
