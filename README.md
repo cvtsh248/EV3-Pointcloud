@@ -35,8 +35,6 @@ Ensure that the EV3 software is not running while using the script.
 
 Run the python script ```recivebt.py```.
 
-NOTE: I'm aware of the typo 'recive'. I just haven't changed it.
-
 Wait for the following text to turn up in the console:
 ```Waiting for EV3 Bluetooth messages, CTRL C to quit.```
 
